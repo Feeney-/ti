@@ -154,15 +154,13 @@
     <div class="container" >
       <h1 class="home-title" ></h1>
 
-      <p class="lead">The best sandals out there</p>
+      <p class="lead" >The best sandals out there</p>
       <p class="lead">
         <a href="" class="btn btn-outline-inverse btn-lg">Buy Now!</a>
       </p>
-      <p class="version">Currently v</p>
-         <form action="">
+        <div id='messagesDiv'></div>
     <input type='text' id='nameInput' placeholder='Name'>
     <input type='text' id='messageInput' placeholder='Message'>
-    </form>
     <script>
       var myDataRef = new Firebase('https://zfvegivjc4f.firebaseio-demo.com/');
       $('#messageInput').keypress(function (e) {
